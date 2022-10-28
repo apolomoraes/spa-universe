@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: bottom center/cover no-repeat;
+  min-height: 100vh;
+  transition: all 2s;
+}
+
+.home {
+  background-image: url('./assets/bg.png');
+}
+
+.universe {
+  background-image: url('./assets/universe-bg.png');
+  transition: 2s;
+}
+
+.exploration {
+  background-image: url('./assets/exploration-bg.png');
+  transition: 2s;
+}
+
+.logo {
+  margin: 4rem 0 0 7.2rem;
+}
+
+nav {
+  display: flex;
+  gap: 3.2rem;
+}
+
+nav a {
+  transition: all 0.5s ease;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 3.2rem;
+  margin-top: 5rem;
+}
+
+ul li a {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 2.1rem;
+  line-height: 2.2rem;
+
+  color: #c4c4cc;
+
+  text-decoration: none;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 17.2rem;
+}
+
+.initial {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  color: #e1e1e6;
+}
+
+p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: #e1e1e6;
+}
+
+.button {
+  background: transparent;
+  border: 0.2rem solid #ffffff;
+  border-radius: 0.5rem;
+  padding: 1.2rem 3.2rem;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  margin-top: 2.4rem;
+
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.section-two {
+  padding: 10.3rem 0 0 10.2rem;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+
+  color: #e1e1e6;
+}
+
+p {
+  margin-top: 1.6rem;
+  width: 64.8rem;
+
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+
+  color: #e1e1e6;
+}
+
+.section-three {
+  padding: 10.3rem 0 0 10.2rem;
+}
+
+.click {
+  font-weight: 700;
+  font-size: 2.4rem;
+
+  color: #ffffff;
+}
+
+.not-found {
+  padding-top: 17.2rem;
+
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+  color: #e1e1e6;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
