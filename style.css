@@ -12,6 +12,7 @@ body {
   background: bottom center/cover no-repeat;
   min-height: 100vh;
   transition: all 2s;
+  background-color: rgb(9, 53, 69);
 }
 
 .home {
